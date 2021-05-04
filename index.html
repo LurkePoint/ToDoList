@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Список задач</title>
+</head>
+<body>
+    <header>
+        <div class="logo">ToDoList</div>
+        <input type="search" class="input_search" placeholder="Поиск задачи" onkeyup="searchTasks()">
+    </header>
+    <div class="main">
+        <div class="add_tasks_block">
+            <label for="input_addTask">Введите название задачи</label>
+            <input id="input_addTask" class="input_addTask" type="text" placeholder="Введите задачу" required>
+            <label>Введите дату и время до выполнения (необязательно)</label>
+            <div class="dataTime">
+                <input class="input_addTaskDate" type="date" required>
+                <input class="input_addTaskTime" type="time" required>
+            </div>
+            <button class="btn_add">Добавить</button>  
+        </div>
+        <div class="tasks_block">
+            <h1>Задачи:</h1>
+            <div class="empty">Список задач пуст</div>
+            <div class="tasks">
+                
+            </div>
+        </div>
+    </div>
+    <footer>
+        ToDoList
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
