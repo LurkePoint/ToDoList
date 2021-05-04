@@ -2,7 +2,6 @@ body {
     font-family: Comic Sans MS;
     margin: 0;
 }
-
 header {
     display: flex;
     flex-wrap: wrap;
@@ -44,8 +43,6 @@ label {
     justify-content: center;
     
 }
-
-
 .input_addTask {
     padding: 7px;
     border: 1px solid rgb(156, 154, 154);
@@ -75,30 +72,11 @@ label {
     color: white;
     cursor: pointer;
 }
-
 .input_search {
     padding: 7px;
     border: 1px solid rgb(156, 154, 154);
     margin-top: 5px;
 }
-
-
-
-/* .input_addTask {
-    width: 500px;
-    padding: 10px;
-    background: white;
-    border: 2px solid dodgerblue;
-    margin-right: 5px;
-}
-.btn_add {
-    padding: 10px;
-    background: dodgerblue;
-    color: white;
-    font-weight: 600;
-    border: none;
-    cursor: pointer;
-} */
 .tasks_block {
     max-width: 800px;
     padding-bottom: 50px;
@@ -121,7 +99,6 @@ label {
     justify-content: center;
     margin: 10px 0px;
 }
-
 .tasks_item_title {
     display: flex;
     flex-wrap: wrap;
@@ -136,7 +113,6 @@ label {
     margin: 20px 0px;
     color: rgb(156, 154, 154);
 }
-
 .task_functions {
     display: flex;
     align-items: center;
@@ -150,7 +126,6 @@ label {
     height: 30px;
     cursor: pointer;
 }
-
 .task_update {
     display: flex;
     align-items: center;
@@ -160,7 +135,6 @@ label {
     height: 30px;
     cursor: pointer;
 }
-
 .task_delete {
     display: flex;
     align-items: center;
@@ -191,7 +165,6 @@ label {
     background-color: lightgray;
     opacity: 0.5;
 }
-
 .task_up {
     display: flex;
     align-items: center;
@@ -221,7 +194,6 @@ label {
     width: 615px;
     position: relative;
 }
-
 .span_close {
     margin: 5px;
     position: absolute;
@@ -248,11 +220,13 @@ label {
     margin-top: 5px;
     padding: 5px;
     border: 1px solid lightgray;
+    width: 100%;
 }
 .input_upTaskTime {
     margin-top: 5px;
     padding: 5px;
     border: 1px solid lightgray;
+    width: 100%;
 }
 .btn_up {
     margin-top: 5px;
@@ -260,7 +234,6 @@ label {
     border: none;
     background: lightgray;
     cursor: pointer;
-    
 }
 .block_msg {
     display: inline-block;
